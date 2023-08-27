@@ -9,6 +9,6 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 if __name__ == "__main__":
     # schedule.every().day.at("15:06").do(backend.main)
-    # asyncio.run(backend.main())
+    asyncio.run(backend.main())
     # note_backend.main()
-    fill_blank.fill()
+    # fill_blank.fill()
